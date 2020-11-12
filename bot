@@ -1,3 +1,5 @@
+Copy source dibawah ini lalu paste-kan ke notepad anda lalu save dengan format vbs setelah itu buka file tersebut.
+
 Dim text, sapi
 text=inputbox("Ketikan kalimat yang mau diucapkan")
 Set sapi=Createobject("sapi.spvoice")
