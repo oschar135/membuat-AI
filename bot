@@ -1,0 +1,4 @@
+Dim text, sapi
+text=inputbox("Ketikan kalimat yang mau diucapkan")
+Set sapi=Createobject("sapi.spvoice")
+sapi.Speak text
